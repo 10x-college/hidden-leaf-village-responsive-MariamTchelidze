@@ -21,7 +21,6 @@ body {
 .bottom-header {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 .top-header {
   background-color: #ff6b1a;
@@ -147,10 +146,10 @@ body.burger-menu-show .show-on-mobile ul li a {
   align-items: flex-start;
   background-color: #f5f5f5;
   gap: 1.5rem;
-  border-radius: 1.2rem;
-  border-top: 0.4rem solid #ff6b1a;
   padding: 2.3rem 2.4rem 6.2rem 2.4rem;
   box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.15);
+  border-radius: 1.2rem;
+  border-top: 0.4rem solid #ff6b1a;
 }
 .card-heading {
   display: flex;
@@ -158,6 +157,7 @@ body.burger-menu-show .show-on-mobile ul li a {
   align-items: center;
   gap: 0.8rem;
 }
+/*  -------------------- Swapping divs -------------------- */
 .nations-div,
 .academy-div,
 .mission-div,
@@ -181,15 +181,10 @@ body:has(#jutsu:target) .nav a[href="#nations"] {
 }
 /* -------------------- Footer -------------------- */
 footer {
-  width: 100%;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   padding: 3.8rem 2rem 3.7rem 1.9rem;
   background-color: #1a1a1a;
 }
 .footer-wrapper {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -197,5 +192,3 @@ footer {
   gap: 2rem;
   background-color: #1a1a1a;
 }
-
-/*  -------------------- Swapping divs -------------------- */
