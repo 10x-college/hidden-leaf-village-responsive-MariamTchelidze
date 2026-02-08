@@ -3,6 +3,10 @@
   .grid-wrapper-sect2 {
     padding: 3.9rem 2.5rem 0 2.5rem;
   }
+  .mobile-footer-p {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
 }
 @media (min-width: 768px) {
   .main-heading img {
@@ -55,9 +59,11 @@
     white-space: nowrap;
   }
   /* -------------------- Footer --------------------  */
-  .footer-wrapper p {
-    font-size: 1.6rem;
-    font-weight: 500;
+  .desktop-footer-p {
+    display: block;
+  }
+  .mobile-footer-p {
+    display: none;
   }
 }
 @media (min-width: 992px) {

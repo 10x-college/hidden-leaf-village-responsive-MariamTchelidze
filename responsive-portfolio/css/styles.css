@@ -192,3 +192,6 @@ footer {
   gap: 2rem;
   background-color: #1a1a1a;
 }
+.desktop-footer-p {
+  display: none;
+}
